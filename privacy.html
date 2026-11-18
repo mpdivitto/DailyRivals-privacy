@@ -64,29 +64,31 @@
 <div class="container">
 
     <h1>Privacy Policy</h1>
-    <p class="subtitle">DailyRivals &nbsp;·&nbsp; Effective November 12, 2026</p>
+    <p class="subtitle">DailyRivals &nbsp;·&nbsp; Effective November 17, 2026</p>
 
     <p>DailyRivals is a private game-tracking app that lets you and your invited friends share and compare daily puzzle results. This policy explains what data we collect, how it is stored, and how it is used.</p>
 
     <h2>1. Data We Collect</h2>
     <p>DailyRivals collects only what is necessary to operate the app:</p>
     <ul>
-        <li><strong>Your display name</strong> — entered during first-time setup and stored on your device.</li>
+        <li><strong>Your display name</strong> — entered during first-time setup, stored on your device, and shared with members of groups you join.</li>
         <li><strong>Game results</strong> — puzzle scores and statistics you paste into the app.</li>
         <li><strong>Group messages</strong> — text messages you send within a friend group's banter section.</li>
         <li><strong>Photos</strong> — images you choose to attach to messages (optional; selected from your photo library).</li>
-        <li><strong>Device identifier</strong> — Apple's Identifier for Vendor (IDFV), used to distinguish your entries from other group members'. It is never transmitted to any server we operate.</li>
+        <li><strong>Profile photo</strong> — an optional avatar image you select from your photo library; stored on your device and shared with your group members.</li>
+        <li><strong>Game suggestions</strong> — if you use the optional "Suggest a Game" feature, the game name, website, and note you enter (see Section 4).</li>
+        <li><strong>Device identifier</strong> — Apple's Identifier for Vendor (IDFV), used to distinguish your entries from other group members'. It is stored with your shared group entries in iCloud and is included if you submit a game suggestion.</li>
     </ul>
-    <p>We do <strong>not</strong> collect your name, email address, phone number, location, or any data not listed above.</p>
+    <p>We do <strong>not</strong> collect your real name, email address, phone number, contacts, or location.</p>
 
     <h2>2. How Your Data Is Stored</h2>
-    <p>All data is stored using Apple's frameworks on your device and in your personal iCloud account:</p>
+    <p>Almost all data is stored using Apple's frameworks on your device and in your personal iCloud account:</p>
     <ul>
         <li><strong>Game results and player settings</strong> are stored locally using SwiftData and backed up to your private iCloud database via CloudKit. Only you can access this data.</li>
         <li><strong>Shared group data</strong> (results visible to group members, messages, and photos) is stored in Apple's CloudKit shared database. This data is accessible only to members you have personally invited via an iCloud share link.</li>
     </ul>
     <div class="highlight">
-        DailyRivals operates no servers. Your data is stored entirely within your iCloud account under Apple's infrastructure. Apple's privacy practices govern that storage — see <a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a>.
+        Aside from game suggestions you choose to submit (see Section 4), DailyRivals operates no servers of its own. Your data is stored within your iCloud account under Apple's infrastructure. Apple's privacy practices govern that storage — see <a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a>.
     </div>
 
     <h2>3. User-Generated Content &amp; Messaging</h2>
@@ -97,27 +99,43 @@
         <li>You are responsible for the content you send. Do not share content that is illegal, harmful, or violates others' privacy.</li>
     </ul>
 
-    <h2>4. Data Sharing with Third Parties</h2>
-    <p>We do not sell, rent, or share your data with any third parties. The only "sharing" that occurs is between members of groups you have personally created and invited people to join.</p>
+    <h2>4. Game Suggestions</h2>
+    <p>DailyRivals includes an optional "Suggest a Game" feature. If you choose to use it, the information you enter — the game's name, website, and any note — is sent to our support inbox so we can review the request, along with your display name, the app version, and your device identifier (IDFV).</p>
+    <ul>
+        <li>This submission is delivered through a Google-hosted relay (Google Apps Script) and email (Gmail). Google processes it solely to transmit your message to us; it is not used for advertising or profiling.</li>
+        <li>We use this information only to evaluate which games to add to the app, and we do not share it further.</li>
+        <li>If you never submit a suggestion, none of this data leaves your device for this purpose.</li>
+    </ul>
+
+    <h2>5. Notifications</h2>
+    <p>With your permission, DailyRivals can send you notifications when another member of your group posts a result or sends a message. These notifications are generated on your device from data already synced through iCloud — enabling them does not send any additional personal data to us or any third party. You can turn notifications off at any time in the app's settings or in your iOS Settings.</p>
+
+    <h2>6. Data Sharing with Third Parties</h2>
+    <p>We do not sell or rent your data, and we do not share it with third parties for their own purposes. Sharing occurs only in two ways:</p>
+    <ul>
+        <li>Between members of groups you have personally created and invited people to join, via Apple's iCloud.</li>
+        <li>When you submit a game suggestion, which is relayed to us through Google's infrastructure (Apps Script and Gmail) as described in Section 4.</li>
+    </ul>
     <p>We use no advertising networks, analytics SDKs, or crash-reporting services that collect your data.</p>
 
-    <h2>5. Data Retention &amp; Deletion</h2>
+    <h2>7. Data Retention &amp; Deletion</h2>
     <ul>
         <li><strong>Messages and photos</strong> — automatically purged after 30 days.</li>
         <li><strong>Game results and settings</strong> — retained until you delete the app or remove them from iCloud. To delete all app data, delete DailyRivals from your device and remove its iCloud data via iOS Settings → [Your Name] → iCloud → Manage Account Storage.</li>
         <li><strong>Shared group data</strong> — if you are the group owner and delete the group, all associated results and messages are deleted for all members. If you leave a group you do not own, your copy is removed from your device.</li>
+        <li><strong>Game suggestions</strong> — suggestions you submit arrive as email in our support inbox and are retained there as ordinary correspondence; you may contact us to request deletion.</li>
     </ul>
 
-    <h2>6. Children's Privacy</h2>
+    <h2>8. Children's Privacy</h2>
     <p>DailyRivals is not directed at children under 13. We do not knowingly collect personal information from children under 13. Because the app includes messaging and user-generated content features, it is intended for users aged 13 and older. If you believe a child under 13 has used the app, please contact us so we can assist with data removal.</p>
 
-    <h2>7. iCloud &amp; Apple Services</h2>
+    <h2>9. iCloud &amp; Apple Services</h2>
     <p>Synchronization and sharing rely entirely on Apple's iCloud and CloudKit services. Your use of those services is governed by <a href="https://www.apple.com/legal/internet-services/icloud/" target="_blank">Apple's iCloud Terms and Conditions</a> and <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
 
-    <h2>8. Changes to This Policy</h2>
+    <h2>10. Changes to This Policy</h2>
     <p>If we make material changes to this policy, we will update the effective date at the top of this page. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
 
-    <h2>9. Contact</h2>
+    <h2>11. Contact</h2>
     <p>Questions or concerns about this privacy policy? Reach us at:</p>
     <p><a href="mailto:dailyrivals.support@gmail.com">dailyrivals.support@gmail.com</a></p>
 
